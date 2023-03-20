@@ -7829,6 +7829,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 /********** Template CSS ************/
+h1, h2, h3, h4, h5, h6 {
+  color: #1b4772 !important; }
+
 h1,
 .font-weight-bolder {
   font-weight: 900 !important; }

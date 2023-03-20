@@ -2,6 +2,7 @@
 
 $primary: #0BCEAF;
 $secondary: #6c757d;
+$heading: #1b4772;
 $light: #ffffff;
 $dark: #343a40;
 
@@ -21,6 +22,10 @@ $enable-responsive-font-sizes: true;
 
 
 /********** Template CSS ************/
+h1, h2, h3, h4, h5, h6 {
+    color: $heading !important;
+}
+
 h1,
 .font-weight-bolder {
     font-weight: 900 !important;
